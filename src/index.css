@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.table-wrapper {
+  position: relative;
+}
+.table-scroll {
+  height: 400px;
+  overflow: auto;
+  margin-top: 0;
+  border-top: 1px solid grey;
+}
+.table-wrapper table {
+  width: 100%;
+  margin-top: -1px;
+}
+.table-wrapper table thead {
+  position: sticky;
+  top: 0;
+  background: white;
+}
